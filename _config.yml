@@ -24,13 +24,13 @@ collections:
     # permalink: /:collection/:path/
   en:
     output: true
-    permalink: /:path/
+    permalink: /:path_without_locale/
   es:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path_without_locale/
   fr:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path_without_locale/
 
 # Scripts
 scripts:
